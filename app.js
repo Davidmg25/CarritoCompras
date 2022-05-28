@@ -24,7 +24,7 @@ function leerDatosPlatillo(platillo){
     const infoPlatillo = {
         imagen: platillo.querySelector('img').src,
         titulo: platillo.querySelector('h4').textContent,
-        precio: platillo.querySelector('.precio span').textContent,
+        precio: platillo.querySelector('.precio').textContent,
         id: platillo.querySelector('a').getAttribute('data-id')
     }
 
